@@ -3,6 +3,7 @@ package au.edu.swin.sdmd.w02_kotlindemo
 fun main(args: Array<String>) {
     val c = Counter("counterZero")
     val c1 = Counter("counterOne")
+    var i: Int = 17
 
     val counters = listOf(c, c1, c)
     printCounters(counters)
